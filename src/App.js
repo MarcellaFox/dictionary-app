@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </main>
       <footer className="app-footer">Coded by Marcella Fox.</footer>
     </div>
