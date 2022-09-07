@@ -8,7 +8,10 @@ function App() {
       <main>
         <Dictionary defaultKeyword="sunset" />
       </main>
-      <footer className="app-footer">Coded by Marcella Fox.</footer>
+      <footer className="app-footer">
+        Coded by Marcella Fox and open-sourced on{" "}
+        <a href="https://github.com/MarcellaFox/dictionary-app">GitHub</a>.
+      </footer>
     </div>
   );
 }

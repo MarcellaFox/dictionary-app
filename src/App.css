@@ -10,3 +10,12 @@
   color: var(--secondary-light-color);
   font-size: 12px;
 }
+
+.app-footer a {
+  color: var(--primary-color);
+}
+
+.app-footer a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
