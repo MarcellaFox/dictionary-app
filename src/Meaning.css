@@ -9,10 +9,11 @@
 .Meaning .definition-container {
   margin-left: 30px;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 18px;
 }
 .Meaning p {
   margin: 0;
+  font-weight: lighter;
 }
 
 .Meaning .example {
