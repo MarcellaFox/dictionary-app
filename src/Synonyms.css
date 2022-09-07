@@ -1,0 +1,22 @@
+.Synonyms {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Synonyms h3 {
+  text-align: left;
+}
+
+.Synonyms li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 4px 16px;
+  border: 1px solid var(--background-color);
+  border-radius: 18px;
+  color: var(--secondary-color);
+  margin: 8px;
+}
+
+.Synonyms ul {
+  padding: 0px;
+}

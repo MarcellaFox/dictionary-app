@@ -1,0 +1,21 @@
+.Meaning h3 {
+  font-size: 16px;
+  font-style: italic;
+  color: var(--secondary-color);
+  font-weight: normal;
+  margin: 20px 0px;
+}
+
+.Meaning .definition-container {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.Meaning p {
+  margin: 0;
+}
+
+.Meaning .example {
+  color: var(--secondary-color);
+  line-height: 1;
+}

@@ -1,0 +1,17 @@
+.Phonetic a {
+  padding: 10px;
+}
+
+.audio {
+  margin: 20px;
+}
+
+.Phonetic img {
+  width: 24px;
+  height: 24px;
+}
+
+.Phonetic p {
+  color: var(--secondary-color);
+  font-size: 18px;
+}

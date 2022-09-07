@@ -1,13 +1,21 @@
-.Dictionary section {
-  background: paleturquoise;
-  padding: 30px;
-  border-radius: 16px;
-  margin: 20px;
+.Dictionary {
+  margin-top: 40px;
 }
 
 .Dictionary input {
   width: 100%;
-  padding: 6px 4px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
+  padding: 8px 20px;
+  border: 1px solid var(--secondary-light-color);
+  border-radius: 16px;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.Dictionary input::placeholder {
+  color: var(--secondary-light-color);
+}
+
+input:focus {
+  outline: 1px solid var(--background-color);
 }

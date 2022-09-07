@@ -1,0 +1,16 @@
+.results-header {
+  text-align: center;
+  border-bottom: 1px solid var(--secondary-light-color);
+  margin: 30px 0px;
+}
+
+.results-header h2 {
+  color: var(--primary-color);
+  font-size: 30px;
+  text-decoration: bold;
+  margin: 20px;
+}
+
+.Results {
+  padding-bottom: 40px;
+}
