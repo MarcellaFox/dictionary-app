@@ -20,3 +20,38 @@
 .Synonyms ul {
   padding: 0px;
 }
+
+.synonym-button {
+  color: var(--primary-color);
+  position: relative;
+}
+
+.synonym-button::before,
+.synonym-button::after {
+  scale: 0;
+  position: absolute;
+  top: -0.7rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+  transition: 300ms ease;
+  transform-origin: 0% 50%;
+}
+
+.synonym-button::before {
+  padding: 10px;
+  width: max-content;
+  background: var(--primary-color);
+  content: attr(data-tooltip);
+  color: white;
+  border-radius: 18px;
+}
+
+.synonym-button:hover::before {
+  scale: 1;
+}
+
+@media (max-width: 830px) {
+  .synonym-button::before {
+    max-width: 10em;
+  }
+}
