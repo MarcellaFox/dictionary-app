@@ -2,6 +2,8 @@
 
 https://velvety-gecko-315ce4.netlify.app/
 
+![Dictionary Application Gif](dictionary-app-recording.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
